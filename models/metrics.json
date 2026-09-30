@@ -1,0 +1,29 @@
+{
+  "model_type": "LinearRegression",
+  "feature_names": [
+    "square_footage",
+    "bedrooms",
+    "bathrooms",
+    "year_built",
+    "lot_size",
+    "distance_to_city_center",
+    "school_rating"
+  ],
+  "coefficients": {
+    "square_footage": -174.73127092065883,
+    "bedrooms": -7844.283366301933,
+    "bathrooms": 1068.8015644155364,
+    "year_built": 2220.8125835560973,
+    "lot_size": 41.84406427559426,
+    "distance_to_city_center": 19602.871463088322,
+    "school_rating": 25338.60075963442
+  },
+  "intercept": -4442157.3734322535,
+  "metrics": {
+    "r2": 0.9811236825880004,
+    "rmse": 10277.04797106107,
+    "mae": 7916.198062090223
+  },
+  "n_samples": 50,
+  "n_features": 7
+}

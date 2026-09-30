@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (training input — not committed; provide it before retraining)
+data/
+
+# Build artifacts
+*.tar
+
+# NOTE: models/ is intentionally committed so the serving image can be built
+# without re-running training.

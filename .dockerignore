@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.git/
+.env
+
+# Training / development artifacts — not needed at serving time.
+scripts/
+data/
+tests/
+requirements-dev.txt

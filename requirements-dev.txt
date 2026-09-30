@@ -1,0 +1,5 @@
+# Training / development dependencies (NOT needed at serving time).
+-r requirements.txt
+pandas
+pytest
+httpx
